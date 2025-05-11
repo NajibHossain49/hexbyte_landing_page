@@ -145,7 +145,7 @@ export default function HeroSection() {
               {group.map((tag, j) => (
                 <span
                   key={j}
-                  className="bg-white/10 text-white text-sm px-3 py-1 rounded-full border border-white/20 flex items-center"
+                  className="bg-[#2A0A4E] text-white text-sm px-3 py-1 rounded-full border border-white/20 flex items-center"
                 >
                   {tag.icon}
                   {tag.name}
@@ -161,7 +161,7 @@ export default function HeroSection() {
         {infraTags.map((tag, i) => (
           <span
             key={i}
-            className="bg-gray-600/75 text-white font-medium text-sm px-4 py-1 rounded-full border border-gray-500  flex items-center"
+            className="bg-gradient-to-r from-[#05222B80] to-[#10627B80] text-white font-medium text-sm px-4 py-1 rounded-full border border-gray-500 flex items-center"
           >
             {tag.icon}
             {tag.name}
